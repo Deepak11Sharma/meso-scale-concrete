@@ -1,25 +1,44 @@
-# project-template
-This is a template repository for research projects. You can use it as a template to start a new research project. Click on the `Use this template` button ☝️. You must be logged in to your GitHub account to use the template.
+Study the fracture mechanics of concrete using Mesoscale model
+---
+**Abstract**
+---
+Concrete can be considered as a heterogeous material at mesoscale consisting of mainly three phase such as aggregates , motar and ITZ. Mehanical behaviour of concrete is depend on the mesoscale structure of concrete.
+Developments in mesoscale modelling of concrete considering different analysis
+1) Continunuum Finite Element Analysis
+2) Discrete Element Method
 
-https://user-images.githubusercontent.com/32356220/198307059-1fee5516-d918-483f-8da6-41e586f27468.mp4
+1)**Introduction **
+---
+Meso sacale model are used to understand the Mechanical behaviour, and failure mechanisms of concrete. Due to inherent heterogenous natue of concrete needs to be considered and mesoscale modelling has proven to be the most effective way of understanding the fracture behaviour due to its capability of modelling these heterogenities 
+Mesoscale modelling can be divided into two segment as continuum mesoscale modelling and discrete mesoscale modelling. Continuum mesoscle modelling represents the mesostructure of concrete as continuum and mainly uses finite element method for analysis. Discrete mesoscale modelling represent the concrete mesostructure using distinct element such as spheres, lattice beams, truss etc.There are many pros and cons for each analysis.
 
-# Rules
-- Folder names should always be in small letters and begin with a number.
-- No spaces are allowed in folder or file names. You have to use the underscore "_."
-- The folders should be numbered in chronological order, i.e., those in the initial part of your research should have a smaller number.
-- Every folder should have a ReadMe file containing a description of that folder's contents.
+2)**Generation for geometry for meso-scale - continuum method**
 
-# Folder structure
+In continuum method, concrete mesostructure is represented as a continuum with aggregates, motar, and ITZ. Generally there are two methods to generate geometry in the continuum mesosale modelling.First one is using digital image based approach which uses image-processing techniques and the other method is generating the mesostructue through parameterization modelling.
 
-The folders follow a 5-level wide and 3-level deep structure. That means it is preferable to have only five folders at a certain level, and the structuring of the information should be done in such a way that it is only 3-levels deep, starting from the top-level folder. This is necessary for the retrieval of the information at a later day.
+2.1)**Digital image based approach** 
+2.2)**Parameterization modelling approach**
 
-| Name | Description |
-| ---- | ---- |
-| 1_library | The papers/presentations that form the foundation for your research are kept in this folder.  We start a new project by curating a list of research publications in the area of interest. |
-| 2_codes | The open-source codes relevant to your research that you find on the internet will be kept in this folder. We try to find and study existing code implementations in computational mechanics to gain insight. The codes will be developed in the workshop directory, and the final paper problems will be stored in the paper_problem folder. |
-| 3_logs | This folder will contain daily logs for the work that we do in the project |
-| 4_meetings | All the meetings will be recorded in this folder |
-| 5_admin | This folder contains the latex source files as well as other administrative work of the project |
+2.2.1) **Shape of aggreates**
+2.2.2)**Particle size distribution**
+2.2.3)**Aggregate placing alorithms**
+2.2.4)**ITZ and motar geometry generation**
+2.2.5)**Meshing the 3D mesostructure**
 
-**Note: See the readme file inside the folder for more details.**
+3)**Analysis method and material constitutive model**
+
+    Material model used for consisting phase
+
+    motar matrix      ITZ          Aggregates
+    CDPM              CDPM         LINEARLY ELASTIC
+
+    Constitutive relations use for aggregate is linear elastic material model at low rate of loading, and for very high strength concret non-linear materials models shall be used for aggregates in mesoscale concrete model with dynamic loading. CDPM to represent 
+    
+
+
+
+      
+      
+       
+        
 
