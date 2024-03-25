@@ -1,0 +1,1 @@
+![](Mesoscale%20concrete%20model%20ppt.pptx)
